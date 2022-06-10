@@ -86,7 +86,20 @@ h3 {
 
 /* header */
 nav {
-  display: none;
+    display: flex-box;
+
+    background-color: red;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+
+}
+
+nav ul li{
+    margin: 1%;
+    list-style-type: none;
+text-align: center;
 }
 
 /* intro section */
@@ -116,7 +129,7 @@ nav {
   .section__subtitle--about {
     align-self: start;
     grid-column: -1/1;
-    grid-row: 2;
+    grid-row:2;
     text-align: right;
     position: relative;
     left: -1.5em;
